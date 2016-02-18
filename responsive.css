@@ -1,0 +1,843 @@
+/*****************font area*****************/
+
+@font-face {
+    font-family: Open Sans;
+    src: url(OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Amplify Personal Use Only;
+    src: url(Amplify_PersonalUseOnly.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: AvantGardeLT ExtraLight;
+    src: url(ufonts.com_avantgardelt-extralight-opentype.otf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(Lato-Regular.ttf);
+}
+
+
+/*******************navbar css**************/
+
+.slicknav_menu {
+    display: none;
+}
+
+.nav_bg {
+    background-color: #383737;
+    max-height: 80px;
+    overflow: hidden;
+}
+
+.logo_text {
+    color: #FFFFFF;
+    font-family: Amplify Personal Use Only;
+    font-size: 40pt;
+    float: left;
+    margin-left: 149px;
+    margin-top: 4px;
+}
+
+span.line {
+    border-right: 1px solid #434343;
+    line-height: 40px;
+    margin-left: 40px;
+    overflow: hidden;
+}
+
+nav>ul.menu_one {
+    margin-top: 33px;
+}
+
+nav>ul.menu_one>li {
+    list-style: none;
+}
+
+nav>ul.menu_one>li>a {
+    font-family: Lato;
+    font-size: 16pt;
+    color: #E1E1E1;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.mrg_lft {
+    margin-left: 80px;
+}
+
+.mrg_left {
+    margin-left: 39px;
+}
+
+.mrg_rht {
+    margin-right: 74px;
+}
+
+.social {
+    margin-top: -7px;
+}
+
+
+/*************background area*************/
+
+.background {}
+
+.bg_image {
+    position: relative;
+}
+
+.bg_image>span {
+    font-family: ITC Avant Garde Gothic LT Extra;
+    font-size: 35px;
+    position: absolute;
+    bottom: 0px;
+    right: 388px;
+    top: 242px;
+    text-transform: uppercase;
+}
+
+.bg_image>span.text_two {
+    font-family: ITC Avant Garde Gothic LT Extra;
+    font-size: 35px;
+    position: absolute;
+    bottom: 0px;
+    right: 269px;
+    top: 314px;
+    text-transform: uppercase;
+}
+
+.bg_image>img {}
+
+
+/*****************service area****************/
+
+.service {
+    min-height: 544px;
+    background-color: #F7F7F7;
+}
+
+.service_one {
+    margin-top: 98px;
+}
+
+.service_two {
+    margin-top: 98px;
+}
+
+.service_three {
+    margin-top: 98px;
+}
+
+.logo_txt {
+    margin-top: -16px;
+}
+
+.logo_txt>h4 {
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 22px;
+    color: #767676;
+}
+
+.logo_txt>p {
+    font-family: Lato;
+    font-size: 15px;
+    color: #9E9E9E;
+}
+
+.logo_txt>span>a {
+    font-family: Lato;
+    font-size: 15px;
+    color: #848484;
+    text-decoration: none;
+}
+
+.glyphicon {
+    padding: 24px 24px;
+    display: inline-block;
+    border-radius: 100px;
+    box-shadow: 0px 0px 2px #888;
+    background-color: #65BF95;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+
+/*************testimonial area**************/
+
+.testimonial {
+    min-height: 573px;
+    background-color: #FFFFFF;
+}
+
+.test_heading>h4 {
+    font-family: Lato;
+    font-size: 26px;
+}
+
+#owl-demo .item {
+    margin: 3px;
+}
+
+#owl-demo .item p {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hr_image {
+    text-align: center;
+}
+
+.hr2_image {
+    text-align: center;
+}
+
+.hr_image>img {
+    padding-top: 93px;
+}
+
+.test_heading {
+    margin-top: 33px;
+}
+
+
+/************about area**************/
+
+.about {}
+
+.about #rahul {
+    margin: 0;
+    padding: 0;
+}
+
+.about #rahull {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.about_bg_text {
+    padding: 80px 38px;
+}
+
+.bg_clor {}
+
+.about_bg {
+    background-color: #3E3E3E;
+    height: 406px;
+}
+
+.about_bg_text>h4 {
+    font-family: Lato;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about_bg_text>p {
+    font-family: Lato;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 31px;
+}
+
+.about_bg_text>span {
+    font-family: Lato;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+
+
+/****************sign up**************/
+
+.sign {
+    min-height: 377px;
+}
+
+.sign_text {}
+
+.sign_text>h4 {
+    font-family: Lato;
+    font-size: 34px;
+    font-weight: bold;
+    color: #6B6B6B;
+    padding-top: 82px;
+}
+
+.sign_text>p {
+    font-family: Lato;
+    font-size: 17px;
+    color: #7F7D7D;
+}
+
+.bttn {
+    padding-top: 50px;
+}
+
+.customize {
+    padding: 16px 55px;
+    color: #F7FBF9;
+    background-color: #65BF95;
+}
+
+
+/*********footer area**********/
+
+hr {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer {
+    min-height: 276px;
+    background-color: #F7F7F7;
+}
+
+.footer {}
+
+.footer_text {
+    padding-top: 80px;
+}
+
+.footer_text>h4 {
+    font-family: amplify personal use only;
+    font-size: 40px;
+    color: #3E3E3E;
+}
+
+.footer_text>p {
+    font-family: Lato;
+    font-size: 14px;
+    color: #3E3E3E;
+    padding-top: 13px;
+}
+
+
+/***********************media quaries************/
+
+
+/***********==||||for tablet(medium) device||||===*************/
+
+@media(min-width:768px) and (max-width:991px) {
+    /*****************font area*****************/
+    @font-face {
+        font-family: Open Sans;
+        src: url(OpenSans-Regular.ttf);
+    }
+    @font-face {
+        font-family: Amplify Personal Use Only;
+        src: url(Amplify_PersonalUseOnly.ttf);
+    }
+    @font-face {
+        font-family: Lato;
+        src: url(Lato-Bold.ttf);
+    }
+    @font-face {
+        font-family: AvantGardeLT ExtraLight;
+        src: url(ufonts.com_avantgardelt-extralight-opentype.otf);
+    }
+    @font-face {
+        font-family: Lato;
+        src: url(Lato-Regular.ttf);
+    }
+    /*******************navbar css**************/
+    .slicknav_menu {
+        display: none;
+    }
+    .nav_bg {
+        background-color: #383737;
+        max-height: 80px;
+        overflow: hidden;
+    }
+    .logo_text {
+        color: #FFFFFF;
+        font-family: Amplify Personal Use Only;
+        font-size: 40pt;
+        float: left;
+        margin-left: 35px;
+        margin-top: 4px;
+    }
+    span.line {
+        border-right: 1px solid #434343;
+        line-height: 40px;
+        margin-left: 40px;
+        overflow: hidden;
+    }
+    nav>ul.menu_one {
+        margin-top: 33px;
+    }
+    nav>ul.menu_one>li {
+        list-style: none;
+    }
+    nav>ul.menu_one>li>a {
+        font-family: Lato;
+        font-size: 16pt;
+        color: #E1E1E1;
+        text-decoration: none;
+        overflow: hidden;
+    }
+    .mrg_lft {
+        margin-left: 43px;
+    }
+    .mrg_left {
+        margin-left: 22px;
+    }
+    .mrg_rht {
+        margin-right: 20px;
+    }
+    .social {
+        margin-top: -9px;
+    }
+    /*************background area*************/
+    .background {}
+    .bg_image {
+        position: relative;
+    }
+    .bg_image>span {
+        font-family: ITC Avant Garde Gothic LT Extra;
+        font-size: 31px;
+        position: absolute;
+        bottom: 0px;
+        right: 196px;
+        top: 238px;
+        text-transform: uppercase;
+    }
+    .bg_image>span.text_two {
+        font-family: ITC Avant Garde Gothic LT Extra;
+        font-size: 31px;
+        position: absolute;
+        bottom: 0px;
+        right: 89px;
+        top: 187px;
+        text-transform: uppercase;
+    }
+    .bg_image>img {}
+    /*****************service area****************/
+    .service {
+        min-height: 544px;
+        background-color: #F7F7F7;
+    }
+    .algn {
+        text-align: center;
+    }
+    .service_one {
+        margin-top: 39px;
+    }
+    .service_two {
+        margin-top: 39px;
+    }
+    .service_three {
+        margin-top: 39px;
+    }
+    .logo_txt {
+        margin-top: 53px;
+    }
+    .logo_txt>h4 {
+        font-family: Lato;
+        font-weight: bold;
+        font-size: 22px;
+        color: #767676;
+    }
+    .logo_txt>p {
+        font-family: Lato;
+        font-size: 15px;
+        color: #9E9E9E;
+    }
+    .logo_txt>span>a {
+        font-family: Lato;
+        font-size: 15px;
+        color: #848484;
+        text-decoration: none;
+    }
+    .glyphicon {
+        padding: 24px 24px;
+        display: inline-block;
+        border-radius: 100px;
+        box-shadow: 0px 0px 2px #888;
+        background-color: #65BF95;
+        color: aliceblue;
+    }
+    /*************testimonial area**************/
+    .testimonial {
+        min-height: 573px;
+        background-color: #FFFFFF;
+    }
+    .test_heading>h4 {
+        font-family: Lato;
+        font-size: 26px;
+    }
+    #owl-demo .item {
+        margin: 3px;
+    }
+    #owl-demo .item p {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    /************about area**************/
+    .about {}
+    .about #rahul {
+        margin: 0;
+        padding: 0;
+    }
+    .about_bg_text {
+        padding: 74px 22px;
+    }
+    .bg_clor {}
+    .about_bg {
+        background-color: #3E3E3E;
+        width: 100%;
+    }
+    .about_bg_text>h4 {
+        font-family: Lato;
+        font-size: 30px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .about_bg_text>p {
+        font-family: Lato;
+        font-size: 16px;
+        color: #FFFFFF;
+        padding-top: 31px;
+    }
+    .about_bg_text>span {
+        font-family: Lato;
+        font-size: 16px;
+        color: #FFFFFF;
+        padding-top: 5px;
+    }
+    /****************sign up**************/
+    .sign {
+        min-height: 377px;
+    }
+    .sign_text {}
+    .sign_text>h4 {
+        font-family: Lato;
+        font-size: 34px;
+        font-weight: bold;
+        color: #6B6B6B;
+        padding-top: 82px;
+    }
+    .sign_text>p {
+        font-family: Lato;
+        font-size: 17px;
+        color: #7F7D7D;
+    }
+    .bttn {
+        padding-top: 50px;
+    }
+    .customize {
+        padding: 16px 55px;
+        color: #F7FBF9;
+        background-color: #65BF95;
+    }
+    /*********footer area**********/
+    hr {
+        margin: 0px;
+        padding: 0px;
+    }
+    .footer {
+        min-height: 276px;
+        background-color: #F7F7F7;
+    }
+    .footer {}
+    .footer_text {
+        padding-top: 80px;
+    }
+    .footer_text>h4 {
+        font-family: amplify personal use only;
+        font-size: 40px;
+        color: #3E3E3E;
+    }
+    .footer_text>p {
+        font-family: Lato;
+        font-size: 14px;
+        color: #3E3E3E;
+        padding-top: 13px;
+    }
+}
+
+
+/*********====|||||for xtra small device||||=====*************/
+
+@media(min-width:320px) and (max-width:767px) {
+    /*****************font area*****************/
+    @font-face {
+        font-family: Open Sans;
+        src: url(OpenSans-Regular.ttf);
+    }
+    @font-face {
+        font-family: Amplify Personal Use Only;
+        src: url(Amplify_PersonalUseOnly.ttf);
+    }
+    @font-face {
+        font-family: Lato;
+        src: url(Lato-Bold.ttf);
+    }
+    @font-face {
+        font-family: AvantGardeLT ExtraLight;
+        src: url(ufonts.com_avantgardelt-extralight-opentype.otf);
+    }
+    @font-face {
+        font-family: Lato;
+        src: url(Lato-Regular.ttf);
+    }
+    /*******************navbar css**************/
+    .slicknav_menu {
+        display: block;
+    }
+    .slicknav_menu ul {
+        margin: 0;
+        padding: 0;
+    }
+    .slicknav_menu ul li:first-child {
+        padding-left: 20px;
+        margin-left: 0px;
+        margin-top: -1px!important;
+    }
+    .slicknav_menu ul li {
+        float: none;
+        display: block;
+        width: 100%
+    }
+    .slicknav_menu ul li a {
+        display: block;
+        margin-left: 179px;
+    }
+    .slicknav_nav a {
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: bold;
+        color: #ffcc00!important;
+    }
+    .slicknav_btn {}
+    .nav_bg {
+        background-color: #383737;
+        max-height: 80px;
+        overflow: hidden;
+    }
+    .logo_text {
+        color: #FFFFFF;
+        font-family: Amplify Personal Use Only;
+        font-size: 40pt;
+        float: left;
+        margin-left: 85px;
+        margin-top: 4px;
+    }
+    span.line {
+        border-right: 1px solid #434343;
+        line-height: 40px;
+        margin-left: 40px;
+        overflow: hidden;
+    }
+    nav>ul.menu_one {
+        margin-top: 33px;
+    }
+    nav>ul.menu_one>li {
+        list-style: none;
+    }
+    nav>ul.menu_one>li>a {
+        font-family: Lato;
+        font-size: 16pt;
+        color: #E1E1E1;
+        text-decoration: none;
+        overflow: hidden;
+    }
+    .mrg_lft {
+        margin-left: 43px;
+    }
+    .mrg_left {
+        margin-left: 22px;
+    }
+    .mrg_rht {
+        margin-right: 20px;
+    }
+    .menu_one {
+        display: none;
+    }
+    .social {
+        margin-top: 23px;
+        margin-right: 80px;
+    }
+    /*************background area*************/
+    .background {}
+    .bg_image {
+        position: relative;
+    }
+    .bg_image>span {
+        font-family: ITC Avant Garde Gothic LT Extra;
+        font-size: 20px;
+        position: absolute;
+        bottom: 0px;
+        right: 92px;
+        top: 19px;
+        text-transform: uppercase;
+    }
+    .bg_image>span.text_two {
+        font-family: ITC Avant Garde Gothic LT Extra;
+        font-size: 20px;
+        position: absolute;
+        bottom: 0px;
+        right: 20px;
+        top: 58px;
+        text-transform: uppercase;
+    }
+    .bg_image>img {}
+    /*****************service area****************/
+    .algn {
+        text-align: center;
+    }
+    .service {
+        min-height: 544px;
+        background-color: #F7F7F7;
+    }
+    .service_one {
+        margin-top: 39px;
+    }
+    .service_two {
+        margin-top: 39px;
+    }
+    .service_three {
+        margin-top: 39px;
+    }
+    .logo_txt {
+        margin-top: 53px;
+    }
+    .logo_txt>h4 {
+        font-family: Lato;
+        font-weight: bold;
+        font-size: 22px;
+        color: #767676;
+    }
+    .logo_txt>p {
+        font-family: Lato;
+        font-size: 15px;
+        color: #9E9E9E;
+    }
+    .logo_txt>span>a {
+        font-family: Lato;
+        font-size: 15px;
+        color: #848484;
+        text-decoration: none;
+    }
+    .glyphicon {
+        padding: 24px 24px;
+        display: inline-block;
+        border-radius: 100px;
+        box-shadow: 0px 0px 2px #888;
+        background-color: #65BF95;
+        color: aliceblue;
+    }
+    /*************testimonial area**************/
+    .testimonial {
+        min-height: 573px;
+        background-color: #FFFFFF;
+    }
+    .test_heading>h4 {
+        font-family: Lato;
+        font-size: 26px;
+    }
+    #owl-demo .item {
+        margin: 3px;
+    }
+    #owl-demo .item p {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    /************about area**************/
+    .about {}
+    .about #rahul {
+        margin: 0;
+        padding: 0;
+    }
+    .about_bg_text {
+        padding: 55px 22px;
+    }
+    .bg_clor {}
+    .about_bg {
+        background-color: #3E3E3E;
+        width: 100%;
+        height: 470px;
+    }
+    .about_bg_text>h4 {
+        font-family: Lato;
+        font-size: 30px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .about_bg_text>p {
+        font-family: Lato;
+        font-size: 16px;
+        color: #FFFFFF;
+        padding-top: 31px;
+    }
+    .about_bg_text>span {
+        font-family: Lato;
+        font-size: 16px;
+        color: #FFFFFF;
+        padding-top: 5px;
+    }
+    /****************sign up**************/
+    .sign {
+        min-height: 377px;
+    }
+    .sign_text {}
+    .sign_text>h4 {
+        font-family: Lato;
+        font-size: 34px;
+        font-weight: bold;
+        color: #6B6B6B;
+        padding-top: 82px;
+    }
+    .sign_text>p {
+        font-family: Lato;
+        font-size: 17px;
+        color: #7F7D7D;
+    }
+    .bttn {
+        padding-top: 50px;
+    }
+    .customize {
+        padding: 16px 55px;
+        color: #F7FBF9;
+        background-color: #65BF95;
+    }
+    /*********footer area**********/
+    hr {
+        margin: 0px;
+        padding: 0px;
+    }
+    .footer {
+        min-height: 276px;
+        background-color: #F7F7F7;
+    }
+    .footer {}
+    .footer_text {
+        padding-top: 80px;
+    }
+    .footer_text>h4 {
+        font-family: amplify personal use only;
+        font-size: 40px;
+        color: #3E3E3E;
+    }
+    .footer_text>p {
+        font-family: Lato;
+        font-size: 14px;
+        color: #3E3E3E;
+        padding-top: 13px;
+    }
+}
